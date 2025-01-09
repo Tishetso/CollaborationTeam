@@ -1,1 +1,32 @@
-log in 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Gr12 - WebApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="form-container">
+        <h4>Welcome Back!</h4>
+        <h1>Login</h1>
+        <form id="login-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <table>
+                <tr class="checkbox-container">
+                    <td ><input type="checkbox" id="show-password" onclick="passwordVisibility()" /></td>
+                    <td ><label for="show-password">Show Password</label></td>
+                    
+                </tr>
+            </table>
+            <button type="submit">Login</button>
+        </form><a href="/forgot_password">Forgot Password?</a>
+        <p>Don't have an account? <a href="signup.html">Sign up here</a>.</p>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

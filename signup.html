@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp | Gr12 - WebApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="form-container">
+        <h1>Sign Up</h1>
+        <form id="signup-form">
+            <table>
+                <tr>
+                    <td><label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </td>
+                    <td class="mtd"></td>
+                    <td><label for="name">ID Number:</label>
+                        <input type="number" id="idNum" name="idNum" length="13" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </td>
+                    <td class="mtd"></td>
+                    <td><label for="name">Phone Number:</label>
+                        <input type="tel" id="phoneNum" name="phoneNum" length="10" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </td>
+                    <td class="mtd"></td>
+                    <td><label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </td>
+                </tr> 
+            </table>
+            <div id="password_requirements">
+                <p style="text-align: start;">Password must contain:</p>
+                <ul>
+                    <li id="special_character">At least one special character (e.g., !, @, #)</li>
+                    <li id="number">At least one numeric digit (0-9)</li>
+                    <li id="lowercase">At least one lowercase letter (a-z)</li>
+                    <li id="uppercase">At least one uppercase letter (A-Z)</li>
+                </ul>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login here</a>.</p>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
