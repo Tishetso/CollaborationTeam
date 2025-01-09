@@ -1,1 +1,27 @@
-Git hub
+1.initialise the folder as a git repository
+git init
+
+it will create a .git folder
+
+we can start using the git commands
+
+2. we have to add my name and email address  to git
+git config --global user.name 'Tishetso Mphelane' 
+git config --global user.email 'TishetsoMphelane@gmail.com' 
+
+3. we want to add the index file to the git repository
+git add index.html
+
+If we want to see whats in the staging area
+git status
+
+4. adding all the files (git add all)
+git add .
+
+brad traversy calls it the The staging area
+
+5.Commit
+git commit
+
+6. Alternative way to commit
+git commit -m 'change the file app.js'
