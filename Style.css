@@ -1,0 +1,62 @@
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration: none;
+
+}
+body{
+
+	background-color:silver;
+}
+.logo{
+	color:white;
+	font-size:30px;
+	padding:5px 0px 5px 5px;
+	font-family: sans-serif,arial,helvetica;
+	font-weight:bold;
+
+}
+
+.navBar{
+	background-color: crimson;
+
+
+}
+
+.navdiv{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+
+}
+
+li{
+
+	list-style:none;
+	display:inline-block;
+}
+
+li a {
+
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+	font-family:arial;
+	margin-right:25px;
+}
+
+button{
+
+	background-color:black;
+	border-radius:10px;
+	margin-left:15px;
+	width:90px;
+	
+	padding:5px;
+}
+
+button a{
+	font-size:15px;
+	color:white;
+	font-weight:bold;
+}
